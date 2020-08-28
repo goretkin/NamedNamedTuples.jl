@@ -1,0 +1,7 @@
+name = "NamedNamedTuples"
+uuid = "7c8eaaae-6917-4820-bd10-5522853e9995"
+authors = ["Gustavo Goretkin <gustavo.goretkin@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
