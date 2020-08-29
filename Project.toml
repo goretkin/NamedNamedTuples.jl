@@ -3,5 +3,9 @@ uuid = "7c8eaaae-6917-4820-bd10-5522853e9995"
 authors = ["Gustavo Goretkin <gustavo.goretkin@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+
 [compat]
 julia = "1.5"
