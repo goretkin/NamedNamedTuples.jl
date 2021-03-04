@@ -15,3 +15,5 @@ A "named `NamedTuple`" is therefore like a "named anonymous struct", which is ki
 I have found this particularly useful until https://github.com/timholy/Revise.jl/issues/18 is closed.
 
 Even if you know all the field of your type from the get-go, you might still be interested in `NamedNamedTuples` if you're dealing with values that only have entries for some of the fields of the type. Instead of using `nothing` to indicate a "missing" value, you can just leave it out of the named tuple. Perhaps this is an alternative to what Rich Hickey calls ["place-oriented programming (PLOP)"](https://www.youtube.com/watch?v=YR5WdGrpoug&t=21m00s). See the slide "Optionality and aggregates".
+
+I was not aware of the [ProtoStructs.jl package](https://github.com/BeastyBlacksmith/ProtoStructs.jl/blob/master/src/ProtoStruct.jl) with the same purpose.
